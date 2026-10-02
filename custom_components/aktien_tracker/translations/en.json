@@ -1,0 +1,84 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add stock tracker",
+        "description": "Address of the stock tracker, e.g. https://aktien.niklasmetzger.de or http://192.168.177.28:8080. The integration reads the evaluated portfolio from /api/summary.",
+        "data": {
+          "url": "Address",
+          "name": "Name"
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure stock tracker",
+        "description": "Change address and name. The new address is queried once before saving.",
+        "data": {
+          "url": "Address",
+          "name": "Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot reach the stock tracker.",
+      "invalid_response": "The address responds but returns no portfolio. Is this really the stock tracker?",
+      "already_configured": "This address already belongs to another entry."
+    },
+    "abort": {
+      "already_configured": "This address is already configured.",
+      "reconfigure_successful": "Settings saved."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "data": {
+          "scan_interval_seconds": "Polling interval (seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "gesamtvermoegen": {
+        "name": "Total assets"
+      },
+      "depotwert": {
+        "name": "Portfolio value"
+      },
+      "verfuegbar": {
+        "name": "Available cash"
+      },
+      "gewinn_verlust": {
+        "name": "Profit/loss"
+      },
+      "gewinn_verlust_prozent": {
+        "name": "Profit/loss percent"
+      },
+      "gewinn_ohne_gebuehren": {
+        "name": "Profit excluding fees"
+      },
+      "heute": {
+        "name": "Today"
+      },
+      "bezahlt": {
+        "name": "Paid incl. fees"
+      },
+      "gebuehren": {
+        "name": "Fees"
+      },
+      "kurs": {
+        "name": "Price"
+      },
+      "wert": {
+        "name": "Value"
+      },
+      "aktie_gewinn_verlust": {
+        "name": "Profit/loss"
+      },
+      "aktie_heute": {
+        "name": "Today"
+      }
+    }
+  }
+}

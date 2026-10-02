@@ -1,0 +1,15 @@
+{
+  "domain": "aktien_tracker",
+  "name": "Aktien-Tracker",
+  "codeowners": [
+    "@NiklasM-foss"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/NiklasM-foss/ha-aktien-tracker",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/NiklasM-foss/ha-aktien-tracker/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

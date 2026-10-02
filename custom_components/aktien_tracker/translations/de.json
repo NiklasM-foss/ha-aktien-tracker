@@ -1,0 +1,84 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Aktien-Tracker hinzufügen",
+        "description": "Adresse des Aktien-Trackers, z.B. https://aktien.niklasmetzger.de oder http://192.168.177.28:8080. Die Integration liest das ausgewertete Depot über /api/summary.",
+        "data": {
+          "url": "Adresse",
+          "name": "Name"
+        }
+      },
+      "reconfigure": {
+        "title": "Aktien-Tracker neu konfigurieren",
+        "description": "Adresse und Name lassen sich hier ändern. Die neue Adresse wird vor dem Speichern einmal abgefragt.",
+        "data": {
+          "url": "Adresse",
+          "name": "Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Aktien-Tracker nicht erreichbar.",
+      "invalid_response": "Die Adresse antwortet, liefert aber kein Depot. Ist das wirklich der Aktien-Tracker?",
+      "already_configured": "Diese Adresse gehört bereits zu einem anderen Eintrag."
+    },
+    "abort": {
+      "already_configured": "Diese Adresse ist bereits eingerichtet.",
+      "reconfigure_successful": "Die Einstellungen wurden gespeichert."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Optionen",
+        "data": {
+          "scan_interval_seconds": "Abfrageintervall (Sekunden)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "gesamtvermoegen": {
+        "name": "Gesamtvermögen"
+      },
+      "depotwert": {
+        "name": "Depotwert"
+      },
+      "verfuegbar": {
+        "name": "Verfügbares Geld"
+      },
+      "gewinn_verlust": {
+        "name": "Gewinn/Verlust"
+      },
+      "gewinn_verlust_prozent": {
+        "name": "Gewinn/Verlust Prozent"
+      },
+      "gewinn_ohne_gebuehren": {
+        "name": "Gewinn ohne Gebühren"
+      },
+      "heute": {
+        "name": "Heute"
+      },
+      "bezahlt": {
+        "name": "Bezahlt inkl. Gebühren"
+      },
+      "gebuehren": {
+        "name": "Gebühren"
+      },
+      "kurs": {
+        "name": "Kurs"
+      },
+      "wert": {
+        "name": "Wert"
+      },
+      "aktie_gewinn_verlust": {
+        "name": "Gewinn/Verlust"
+      },
+      "aktie_heute": {
+        "name": "Heute"
+      }
+    }
+  }
+}

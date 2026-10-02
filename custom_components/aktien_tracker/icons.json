@@ -1,0 +1,45 @@
+{
+  "entity": {
+    "sensor": {
+      "gesamtvermoegen": {
+        "default": "mdi:bank"
+      },
+      "depotwert": {
+        "default": "mdi:briefcase-variant"
+      },
+      "verfuegbar": {
+        "default": "mdi:cash"
+      },
+      "gewinn_verlust": {
+        "default": "mdi:finance"
+      },
+      "gewinn_verlust_prozent": {
+        "default": "mdi:percent"
+      },
+      "gewinn_ohne_gebuehren": {
+        "default": "mdi:cash-plus"
+      },
+      "heute": {
+        "default": "mdi:calendar-today"
+      },
+      "bezahlt": {
+        "default": "mdi:cash-register"
+      },
+      "gebuehren": {
+        "default": "mdi:receipt-text"
+      },
+      "kurs": {
+        "default": "mdi:chart-line"
+      },
+      "wert": {
+        "default": "mdi:briefcase"
+      },
+      "aktie_gewinn_verlust": {
+        "default": "mdi:finance"
+      },
+      "aktie_heute": {
+        "default": "mdi:calendar-today"
+      }
+    }
+  }
+}
