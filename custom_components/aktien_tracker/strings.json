@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "Aktien-Tracker hinzufügen",
-        "description": "Adresse des Aktien-Trackers, z.B. https://aktien.niklasmetzger.de oder http://192.168.177.28:8080. Die Integration liest das ausgewertete Depot über /api/summary.",
+        "description": "Adresse des Aktien-Trackers, also der Webseite selbst oder ihrer Adresse im Heimnetz mit Port. Die Integration liest das ausgewertete Depot.",
         "data": {
           "url": "Adresse",
           "name": "Name"

@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "Add stock tracker",
-        "description": "Address of the stock tracker, e.g. https://aktien.niklasmetzger.de or http://192.168.177.28:8080. The integration reads the evaluated portfolio from /api/summary.",
+        "description": "Address of the stock tracker, either the website itself or its local address with port. The integration reads the evaluated portfolio.",
         "data": {
           "url": "Address",
           "name": "Name"
